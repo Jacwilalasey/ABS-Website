@@ -1,6 +1,8 @@
 h2 {
     font-size: 700;
     margin: 1.25em;
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
 
 body {
@@ -13,6 +15,7 @@ body {
     background-color: #FFFFFF !important;
     background-size: cover;
     z-index: 10;
+    border-bottom: 10px solid #C6C69C;
 }
 
 .navbar-nav {
@@ -44,6 +47,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: 10px solid #C6C69C;
 }
 
 .jumboCopy {
@@ -62,13 +66,13 @@ body {
     padding: 1em;
 } */
 
-.aboutABS h2 {
-    margin: 3em;
-    padding: 1em;
+.aboutABS {
+    margin-top: 100px;
 }
 
 .about-content {
     text-align: right;
+    font-size: larger;
 }
 
 .aboutIMG {
@@ -76,12 +80,12 @@ body {
 }
 
 .services {
-    margin-top: 3em;
+    margin-top: 100px;
     padding: 1em;
 }
 
 .btn-primary {
-    margin: auto;
+    margin: 40px auto;
     width: 50%;
     padding: 10px;
     background: url(/ABS-Website/assets/images/transparency.png);
@@ -92,6 +96,43 @@ body {
     margin-bottom: 25px;
 }
 
+.card-body {
+    border: 1px solid #C6C69C;
+}
+
 .cardContainer img {
     max-height: 349px;
+    border: 1px solid #C6C69C;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.people {
+    margin-top: 100px;
+    padding: 1em;
+}
+
+.people-content {
+    margin: 20px auto;
+    font-size: larger;
+}
+
+.people p {
+    color: black;
+    text-align: left;
+    margin: 20px;
+}
+
+.people-img img {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.contact {
+    margin-top: 100px;
+    padding: 1em;
 }
