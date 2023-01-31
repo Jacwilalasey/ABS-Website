@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 h2 {
     font-size: 700;
     margin: 1.25em;
@@ -60,11 +64,6 @@ body {
     padding: 1.5em;
     color: #E9ECEF;
 }
-/* 
-.about {
-    margin-top: 3em;
-    padding: 1em;
-} */
 
 .aboutABS {
     margin-top: 100px;
@@ -92,17 +91,29 @@ body {
     border: none;
   }
 
-.cardContainer {
-    margin-bottom: 25px;
+.card {
+    margin: 25px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #C6C69C;
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 .card-body {
     border: 1px solid #C6C69C;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .cardContainer img {
     max-height: 349px;
     border: 1px solid #C6C69C;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .card-title {
@@ -133,8 +144,7 @@ body {
     margin-left: 30px;
 }
 
-.contact {
+footer {
     background-color: #C6C69C;
-    margin-top: 100px;
-    padding: .5em;
+    border-top: 10px solid black;
 }
