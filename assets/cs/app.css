@@ -111,6 +111,7 @@ body {
 
 .people {
     margin-top: 100px;
+    margin-bottom: 150px;
     padding: 1em;
 }
 
@@ -133,6 +134,7 @@ body {
 }
 
 .contact {
+    background-color: #C6C69C;
     margin-top: 100px;
-    padding: 1em;
+    padding: .5em;
 }
