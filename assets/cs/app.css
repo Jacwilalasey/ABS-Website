@@ -1,5 +1,7 @@
-root:
-
+h2 {
+    font-size: 700;
+    margin: 1.25em;
+}
 
 body {
     font-family: 'Cabin', sans-serif;
@@ -8,32 +10,31 @@ body {
 .customNav {
     position: sticky;
     width: 100%;
-    background-color: #E9ECEF !important;
+    background-color: #FFFFFF !important;
     background-size: cover;
     z-index: 10;
-  }
+}
 
 .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
-  }
+}
 
 .navbar-brand img {
     padding-right: 15px;
-    width: 85px;
-  }
+}
 
 .nav-item {
     margin: 0px 15px;
-  }
+}
 
 .customNav a {
-    color: white !important;
-  }
+    color: black !important;
+}
 
 .navbar-nav a:hover {
     color: gray !important;
-  }
+}
 
 .jumbotron {
     background-image: url("../images/hero2.jpg");
@@ -46,7 +47,6 @@ body {
 }
 
 .jumboCopy {
-    border: 5px solid red;
     background: url("../images/transparency.png");
     background-color: transparent !important;
     height: 30vh;
@@ -62,15 +62,31 @@ body {
     padding: 1em;
 } */
 
-.about h2 {
+.aboutABS h2 {
     margin: 3em;
     padding: 1em;
+}
+
+.about-content {
+    text-align: right;
+}
+
+.aboutIMG {
+    margin-left: 50px;
 }
 
 .services {
     margin-top: 3em;
     padding: 1em;
 }
+
+.btn-primary {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background: url(/ABS-Website/assets/images/transparency.png);
+    border: none;
+  }
 
 .cardContainer {
     margin-bottom: 25px;
