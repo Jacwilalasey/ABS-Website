@@ -40,7 +40,7 @@ body {
 }
 
 .navbar-nav a:hover {
-    color: gray !important;
+    color: #C6C69C !important;
 }
 
 .jumbotron {
@@ -92,6 +92,10 @@ body {
 .services {
     margin-top: 100px;
     padding: 1em;
+    background-image: url("../images/bg2.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 10px;
 }
 
 .btn-primary {
@@ -121,8 +125,9 @@ body {
 }
 
 .cardContainer img {
+    min-height: 325px;
     max-height: 349px;
-    border: 1px solid #C6C69C;
+    border: 1px solid white    ;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -161,10 +166,6 @@ footer {
 }
 
 /* Services Page */
-
-.serviceList {
-
-}
 
 .serv1 {
     background-image: url("../images/bg2.png");
