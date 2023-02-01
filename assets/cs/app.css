@@ -19,7 +19,7 @@ body {
     background-color: #FFFFFF !important;
     background-size: cover;
     z-index: 10;
-    border-bottom: 10px solid #C6C69C;
+    /* border-bottom: 10px solid #C6C69C; */
 }
 
 .navbar-nav {
@@ -51,7 +51,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 10px solid #C6C69C;
+    /* border-bottom: 10px solid #C6C69C; */
+}
+
+.jumbotronServ {
+    background-image: url("../images/hero1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 10px solid black;
 }
 
 .jumboCopy {
@@ -147,4 +158,69 @@ body {
 footer {
     background-color: #C6C69C;
     border-top: 10px solid black;
+}
+
+/* Services Page */
+
+.serviceList {
+
+}
+
+.serv1 {
+    background-image: url("../images/bg2.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-bottom: 10px solid #C6C69C; */
+}
+
+.serv2 {
+    background-image: url("../images/bg1.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-bottom: 10px solid #C6C69C; */
+}
+
+.serv3 {
+    background-image: url("../images/bg2.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-bottom: 10px solid #C6C69C; */
+}
+
+.serv4 {
+    margin-top: 100px;
+}
+
+.servIMG1, .servIMG3 {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin: 50px 0 0 50px;
+}
+
+.servIMG2, .servIMG4 {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin: 50px 0 0 -70px;
+}
+
+
+
+.footServ {
+    background-color: #C6C69C;
+    border-top: 10px solid black;
+    margin-top: 130px;
 }
